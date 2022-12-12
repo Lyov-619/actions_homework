@@ -1,4 +1,4 @@
 FROM golang
 WORKDIR ./app
-COPY main.go .
+COPY lyov.go .
 CMD ["go","run","main.go"]
