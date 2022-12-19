@@ -25,3 +25,5 @@ jobs:
         with:
           push: true
           tags: lyovtigranyan619/go_image:latest
+          build-args: |
+            VERSION=1.16
