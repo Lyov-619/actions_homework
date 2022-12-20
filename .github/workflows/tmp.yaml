@@ -1,0 +1,14 @@
+name: Print Hello World
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create s directory
+        run: mkdir my_dir
+      - name: Create a file
+        run: touch my_dir/t.txt
+      - name: Write something in the file
+        run: echo "Hello world" > my_dir/t.txt
+      - name: Check the content
+        run: cat my_dir/t.txt
