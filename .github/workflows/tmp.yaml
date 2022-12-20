@@ -13,7 +13,7 @@ jobs:
     - name: Create s directory
       run: mkdir my_dir2
     - name: Create a file
-      run: touch my_dir/t2.txt
+      run: touch my_dir2/t2.txt
     - name: Write something in the file
       run: echo "Hello world" > my_dir2/t2.txt
     - name: Check the content
